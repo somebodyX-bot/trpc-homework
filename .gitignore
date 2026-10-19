@@ -1,0 +1,5 @@
+build/
+*.log
+evidence/runs/
+.env
+deploy/trpc-homework-image.tar*

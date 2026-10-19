@@ -1,0 +1,31 @@
+global:
+  threadmodel:
+    fiber:
+      - instance_name: fiber_instance
+        concurrency_hint: 2
+client:
+  service:
+    - name: trpc.homework.rpc.Greeter
+      target: 127.0.0.1:8000
+      protocol: trpc
+      network: tcp
+      selector_name: direct
+      timeout: 2000
+    - name: trpc.homework.rpc.Calc
+      target: 127.0.0.1:8001
+      protocol: trpc
+      network: tcp
+      selector_name: direct
+      timeout: 2000
+plugins:
+  log:
+    default:
+      - name: default
+        min_level: 2
+        sinks:
+          stdout:
+            eol: true
+            stderr_level: 4
+          local_file:
+            filename: logs/health-framework.log
+

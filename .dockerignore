@@ -1,0 +1,6 @@
+.git
+build
+evidence
+*.zip
+README.md
+deploy

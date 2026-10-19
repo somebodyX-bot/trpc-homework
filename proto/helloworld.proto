@@ -1,0 +1,5 @@
+syntax = "proto3";
+package homework;
+message HelloRequest { string msg = 1; }
+message HelloReply { string msg = 1; }
+service Greeter { rpc SayHello(HelloRequest) returns (HelloReply); }

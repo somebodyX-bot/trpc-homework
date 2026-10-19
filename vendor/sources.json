@@ -1,0 +1,114 @@
+[
+  {
+    "name": "trpc",
+    "version": "v1.2.0",
+    "cmake_name": "",
+    "url": "https://codeload.github.com/trpc-group/trpc-cpp/tar.gz/v1.2.0",
+    "sha256": "2742ac4562983d26881144c597c2be3ffe9407747d69fcac895cee53df06c767"
+  },
+  {
+    "name": "trpc_protocol",
+    "version": "v1.0.0",
+    "cmake_name": "com_github_trpc_protocol",
+    "url": "https://codeload.github.com/trpc-group/trpc/tar.gz/v1.0.0",
+    "sha256": "aa31bf4d02c08efb74d48c959d88c05e48924eb1dce2d4107bcd7bb7dbf1ca6c"
+  },
+  {
+    "name": "gtest",
+    "version": "release-1.10.0",
+    "cmake_name": "com_google_googletest",
+    "url": "https://codeload.github.com/google/googletest/tar.gz/release-1.10.0",
+    "sha256": "9dc9157a9a1551ec7a7e43daea9a694a0bb5fb8bec81235d8a1e6ef64c716dcb"
+  },
+  {
+    "name": "fmt",
+    "version": "9.1.0",
+    "cmake_name": "fmt",
+    "url": "https://codeload.github.com/fmtlib/fmt/tar.gz/9.1.0",
+    "sha256": "5dea48d1fcddc3ec571ce2058e13910a0d4a6bab4cc09a809d8b1dd1c88ae6f2"
+  },
+  {
+    "name": "gflags",
+    "version": "v2.2.2",
+    "cmake_name": "gflags",
+    "url": "https://codeload.github.com/gflags/gflags/tar.gz/v2.2.2",
+    "sha256": "34af2f15cf7367513b352bdcd2493ab14ce43692d2dcd9dfc499492966c64dcf"
+  },
+  {
+    "name": "jsoncpp",
+    "version": "1.9.3",
+    "cmake_name": "jsoncpp",
+    "url": "https://codeload.github.com/open-source-parsers/jsoncpp/tar.gz/1.9.3",
+    "sha256": "8593c1d69e703563d94d8c12244e2e18893eeb9a8a9f8aa3d09a327aa45c8f7d"
+  },
+  {
+    "name": "protobuf",
+    "version": "v3.15.8",
+    "cmake_name": "protobuf",
+    "url": "https://codeload.github.com/protocolbuffers/protobuf/tar.gz/v3.15.8",
+    "sha256": "0cbdc9adda01f6d2facc65a22a2be5cecefbefe5a09e5382ee8879b522c04441"
+  },
+  {
+    "name": "spdlog",
+    "version": "v1.10.0",
+    "cmake_name": "spdlog",
+    "url": "https://codeload.github.com/gabime/spdlog/tar.gz/v1.10.0",
+    "sha256": "697f91700237dbae2326b90469be32b876b2b44888302afbc7aceb68bcfe8224"
+  },
+  {
+    "name": "rapidjson",
+    "version": "v1.1.0",
+    "cmake_name": "rapidjson",
+    "url": "https://codeload.github.com/Tencent/rapidjson/tar.gz/v1.1.0",
+    "sha256": "bf7ced29704a1e696fbccf2a2b4ea068e7774fa37f6d7dd4039d0787f8bed98e"
+  },
+  {
+    "name": "yaml-cpp",
+    "version": "yaml-cpp-0.7.0",
+    "cmake_name": "yaml_cpp",
+    "url": "https://codeload.github.com/jbeder/yaml-cpp/tar.gz/yaml-cpp-0.7.0",
+    "sha256": "43e6a9fcb146ad871515f0d0873947e5d497a1c9c60c58cb102a97b47208b7c3"
+  },
+  {
+    "name": "picohttpparser",
+    "version": "465a7ff09fbd3432fe56c673451f5460154d1f07",
+    "cmake_name": "picohttpparser",
+    "url": "https://codeload.github.com/h2o/picohttpparser/tar.gz/465a7ff09fbd3432fe56c673451f5460154d1f07",
+    "sha256": "d65d80b362fcb11f6e982ebc4515442d93b937b166558120031c38a8b6c173cd"
+  },
+  {
+    "name": "nghttp2",
+    "version": "v1.40.0",
+    "cmake_name": "nghttp2",
+    "url": "https://github.com/nghttp2/nghttp2/releases/download/v1.40.0/nghttp2-1.40.0.tar.gz",
+    "sha256": "eb9d9046495a49dd40c7ef5d6c9907b51e5a6b320ea6e2add11eb8b52c982c47"
+  },
+  {
+    "name": "snappy",
+    "version": "1.1.8",
+    "cmake_name": "snappy",
+    "url": "https://codeload.github.com/google/snappy/tar.gz/1.1.8",
+    "sha256": "16b677f07832a612b0836178db7f374e414f94657c138e6993cbfc5dcc58651f"
+  },
+  {
+    "name": "lz4",
+    "version": "v1.9.4",
+    "cmake_name": "lz4",
+    "url": "https://codeload.github.com/lz4/lz4/tar.gz/v1.9.4",
+    "sha256": "0b0e3aa07c8c063ddf40b082bdf7e37a1562bda40a0ff5272957f3e987e0e54b"
+  },
+  {
+    "name": "toml11",
+    "version": "v3.7.0",
+    "cmake_name": "toml11",
+    "url": "https://codeload.github.com/ToruNiina/toml11/tar.gz/v3.7.0",
+    "sha256": "a0b6bec77c0e418eea7d270a4437510884f2fe8f61e7ab121729624f04c4b58e"
+  },
+  {
+    "name": "flatbuffers",
+    "version": "v23.5.26",
+    "cmake_name": "flatbuffers",
+    "url": "https://codeload.github.com/google/flatbuffers/tar.gz/v23.5.26",
+    "sha256": "1cce06b17cddd896b6d73cc047e36a254fb8df4d7ea18a46acf16c4c0cd3f3f3"
+  }
+]

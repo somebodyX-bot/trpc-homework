@@ -1,0 +1,23 @@
+name: trpc-homework
+services:
+  server:
+    image: trpc-homework:1.0
+    build:
+      context: .
+      args:
+        BUILD_JOBS: ${BUILD_JOBS:-4}
+    init: true
+    healthcheck:
+      test: ["CMD", "./rpc_client", "--client_config=conf/health.yaml", "--healthcheck"]
+      interval: 10s
+      timeout: 8s
+      start_period: 15s
+      retries: 5
+  client:
+    image: trpc-homework:1.0
+    init: true
+    profiles: ["test"]
+    depends_on:
+      server:
+        condition: service_healthy
+    command: ["./rpc_client", "--client_config=conf/client.yaml"]
